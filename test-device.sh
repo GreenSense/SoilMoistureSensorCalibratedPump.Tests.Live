@@ -13,5 +13,5 @@ echo "Testing device: $DEVICE_NAME"
 
 sh report-test-start.sh $DEVICE_NAME && \
 
-mono lib/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe bin/Release/SoilMoistureSensorCalibratedSerial.Tests.Live.dll --params=DeviceName=$DEVICE_NAME && \
+mono lib/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe bin/Release/SoilMoistureSensorCalibratedPump.Tests.Live.dll --params=DeviceName=$DEVICE_NAME && \
 sh report-test-pass.sh $DEVICE_NAME || (sh report-test-fail.sh $DEVICE_NAME && exit 1)
