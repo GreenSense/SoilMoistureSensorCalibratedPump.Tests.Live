@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoilMoistureSensorCalibratedPump.Tests.Live", "SoilMoistureSensorCalibratedPump.Tests.Live\SoilMoistureSensorCalibratedPump.Tests.Live.csproj", "{E888859B-8A06-4BFA-8915-7F614C2A571C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E888859B-8A06-4BFA-8915-7F614C2A571C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E888859B-8A06-4BFA-8915-7F614C2A571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E888859B-8A06-4BFA-8915-7F614C2A571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E888859B-8A06-4BFA-8915-7F614C2A571C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
