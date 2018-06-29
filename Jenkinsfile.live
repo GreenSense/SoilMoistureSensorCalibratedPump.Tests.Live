@@ -37,11 +37,6 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            cleanWs()
-        }
-    }
 }
 def shHide(cmd) {
     sh('#!/bin/sh -e\n' + cmd)
